@@ -1,0 +1,71 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #323232;
+  line-height: 1.6875;
+}
+
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+}
+
+input, button {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+input:focus, button:focus {
+  outline: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.header {
+  height: 100vh;
+  background-image: url(./../../img/Nemiga.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header__title {
+  font-size: 170px;
+  letter-spacing: 30px;
+  padding-left: 50px;
+  margin-bottom: 200px;
+}
+
+.header__text {
+  font-size: 70px;
+  font-style: italic;
+  font-weight: 700;
+  padding-left: 50px;
+}
+.header__text-1 {
+  font-size: 40px;
+}/*# sourceMappingURL=main.css.map */

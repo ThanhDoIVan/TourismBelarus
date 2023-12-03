@@ -1,0 +1,24 @@
+.header {
+    height: 100vh;
+    background-image: url(./../../img/Nemiga.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header__title {
+    font-size: 170px;
+    letter-spacing: 30px;
+    padding-left: 50px;
+    margin-bottom: 200px;
+}
+
+.header__text {
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 700;
+    padding-left: 50px;
+
+    &-1 {
+        font-size: 40px;
+    }
+}
