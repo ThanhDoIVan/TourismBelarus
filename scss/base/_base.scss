@@ -3,10 +3,11 @@ body {
     font-size: 16px;
     color: #323232;
     line-height: 1.6875;
+    background-color: #F3EEEA;
 }
 
 .container {
-    max-width: 1140px;  // Изначально было 1100, но т.к. нужны паддинги со сторон, добавляем еще 40px
+    max-width: 1240px;  // Изначально было 1100, но т.к. нужны паддинги со сторон, добавляем еще 40px
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px; // Добавляем паддинги т.к. на мобилках элементы будут прищемлены к краю экрана
