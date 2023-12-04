@@ -127,6 +127,7 @@ img {
 .mogilev {
   margin-top: 50px;
   padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #EBE3D5;
 }
 
@@ -185,5 +186,72 @@ img {
   background-image: url(./../../img/museum.jpg);
 }
 .mogilev__img:hover {
+  scale: 1.03;
+}
+
+.brest {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #B0A695;
+}
+
+.brest__title {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.brest__text {
+  font-size: 24px;
+  text-align: center;
+}
+.brest__text-outside {
+  margin-bottom: 30px;
+}
+.brest__text-inside {
+  max-width: 500px;
+}
+
+.brest__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 70px;
+}
+.brest__box-full {
+  flex-direction: column;
+}
+
+.brest__img {
+  width: 630px;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.brest__img-round {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+.brest__img-full {
+  width: 1200px;
+  height: 700px;
+}
+.brest__img-krepost {
+  background-image: url(./../../img/krepost.jpg);
+}
+.brest__img-statue {
+  background-image: url(./../../img/statue.jpg);
+}
+.brest__img-park {
+  background-image: url(./../../img/park.jpg);
+}
+.brest__img-pripyat {
+  background-image: url(./../../img/pripyat.jpg);
+}
+.brest__img:hover {
   scale: 1.03;
 }/*# sourceMappingURL=main.css.map */
