@@ -98,16 +98,16 @@ img {
   transition: 0.3s;
 }
 .minsk__img-fmo {
-  background-image: url(./../../img/fmo.png);
+  background-image: url(./../img/fmo.png);
 }
 .minsk__img-pobedi {
-  background-image: url(./../../img/pobedi.jpg);
+  background-image: url(./../img/pobedi.jpg);
 }
 .minsk__img-church {
-  background-image: url(./../../img/church.jpg);
+  background-image: url(./../img/church.jpg);
 }
 .minsk__img-theatre {
-  background-image: url(./../../img/theatre.jpg);
+  background-image: url(./../img/theatre.jpg);
 }
 .minsk__img:hover {
   scale: 1.03;
@@ -174,16 +174,16 @@ img {
   transition: 0.3s;
 }
 .mogilev__img-maslo {
-  background-image: url(./../../img/maslo.jpg);
+  background-image: url(./../img/maslo.jpg);
 }
 .mogilev__img-drama {
-  background-image: url(./../../img/drama.jpg);
+  background-image: url(./../img/drama.jpg);
 }
 .mogilev__img-botan {
-  background-image: url(./../../img/botanic.jpg);
+  background-image: url(./../img/botanic.jpg);
 }
 .mogilev__img-museum {
-  background-image: url(./../../img/museum.jpg);
+  background-image: url(./../img/museum.jpg);
 }
 .mogilev__img:hover {
   scale: 1.03;
@@ -241,16 +241,16 @@ img {
   height: 700px;
 }
 .brest__img-krepost {
-  background-image: url(./../../img/krepost.jpg);
+  background-image: url(./../img/krepost.jpg);
 }
 .brest__img-statue {
-  background-image: url(./../../img/statue.jpg);
+  background-image: url(./../img/statue.jpg);
 }
 .brest__img-park {
-  background-image: url(./../../img/park.jpg);
+  background-image: url(./../img/park.jpg);
 }
 .brest__img-pripyat {
-  background-image: url(./../../img/pripyat.jpg);
+  background-image: url(./../img/pripyat.jpg);
 }
 .brest__img:hover {
   scale: 1.03;

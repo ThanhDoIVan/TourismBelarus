@@ -25,19 +25,19 @@
     transition: .3s;
     
     &-fmo {
-        background-image: url(./../../img/fmo.png);
+        background-image: url(./../img/fmo.png);
     }
 
     &-pobedi {
-        background-image: url(./../../img/pobedi.jpg);
+        background-image: url(./../img/pobedi.jpg);
     }
     
     &-church {
-        background-image: url(./../../img/church.jpg);
+        background-image: url(./../img/church.jpg);
     }
     
     &-theatre {
-        background-image: url(./../../img/theatre.jpg); 
+        background-image: url(./../img/theatre.jpg); 
     }
 
     &:hover {

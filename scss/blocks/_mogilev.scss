@@ -53,19 +53,19 @@
     transition: .3s;
 
     &-maslo {
-        background-image: url(./../../img/maslo.jpg);
+        background-image: url(./../img/maslo.jpg);
     }
 
     &-drama {
-        background-image: url(./../../img/drama.jpg);
+        background-image: url(./../img/drama.jpg);
     }
 
     &-botan {
-        background-image: url(./../../img/botanic.jpg);
+        background-image: url(./../img/botanic.jpg);
     }
 
     &-museum {
-        background-image: url(./../../img/museum.jpg);
+        background-image: url(./../img/museum.jpg);
     }
 
     &:hover {
