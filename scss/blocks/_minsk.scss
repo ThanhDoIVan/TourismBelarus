@@ -22,6 +22,7 @@
     background-position: center;
     background-size: cover;
     border-radius: 30px;
+    transition: .3s;
     
     &-fmo {
         background-image: url(./../../img/fmo.png);
@@ -37,6 +38,10 @@
     
     &-theatre {
         background-image: url(./../../img/theatre.jpg); 
+    }
+
+    &:hover {
+        scale: 1.03;
     }
 }
 

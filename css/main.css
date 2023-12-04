@@ -95,6 +95,7 @@ img {
   background-position: center;
   background-size: cover;
   border-radius: 30px;
+  transition: 0.3s;
 }
 .minsk__img-fmo {
   background-image: url(./../../img/fmo.png);
@@ -108,6 +109,9 @@ img {
 .minsk__img-theatre {
   background-image: url(./../../img/theatre.jpg);
 }
+.minsk__img:hover {
+  scale: 1.03;
+}
 
 .minsk__text {
   font-size: 24px;
@@ -118,4 +122,68 @@ img {
 }
 .minsk__text-outside {
   margin-bottom: 30px;
+}
+
+.mogilev {
+  margin-top: 50px;
+  padding-top: 30px;
+  background-color: #EBE3D5;
+}
+
+.mogilev__title {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.mogilev__text {
+  font-size: 24px;
+  text-align: center;
+}
+.mogilev__text-outside {
+  margin-bottom: 30px;
+}
+.mogilev__text-inside {
+  font-size: 18px;
+  max-width: 260px;
+}
+
+.mogilev__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  margin-top: 60px;
+}
+
+.mogilev__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.mogilev__box:nth-child(even) {
+  margin-top: 30px;
+}
+
+.mogilev__img {
+  width: 260px;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.mogilev__img-maslo {
+  background-image: url(./../../img/maslo.jpg);
+}
+.mogilev__img-drama {
+  background-image: url(./../../img/drama.jpg);
+}
+.mogilev__img-botan {
+  background-image: url(./../../img/botanic.jpg);
+}
+.mogilev__img-museum {
+  background-image: url(./../../img/museum.jpg);
+}
+.mogilev__img:hover {
+  scale: 1.03;
 }/*# sourceMappingURL=main.css.map */
