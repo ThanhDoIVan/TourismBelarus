@@ -49,7 +49,7 @@ img {
 
 .header {
   height: 100vh;
-  background-image: url(./../../img/Nemiga.jpg);
+  background-image: url(./../img/Nemiga.jpg);
   background-size: cover;
   background-position: center;
 }
